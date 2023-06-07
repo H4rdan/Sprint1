@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: 16vh auto;
+}
+
+.contenedor2 {
+    display: flex;
+    height: 100%;
+}
+
+#daniel {
+    border-radius: 10px;
+    background-color: #733FC8;
+    background-image: url(../Sprint1/imágenes/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#jeanette {
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#jonathan {
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#patrick {
+    border-radius: 10px;
+    background-color: hsl(219, 29%, 14%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#kira {
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: hsl(273, 55%, 52%);
+}
+
+ul {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.imgul {
+    display: flex;
+    padding: 5px 20px 5px 20px;
+}
+
+p {
+    font-size: 13px;
+    color: #AFB2B9;
+    padding: 5px 20px 5px 20px;
+}
+
+h2 {
+    padding: 5px 20px 5px 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+#kira p {
+    padding: 5px 20px 27px 20px;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+article {
+    margin: 15px;
+}
+
+aside {
+    display: flex;
+    height: 100%;
+}
+
+.liver {
+    opacity: 60%;
+}
+
+.liverwhite {
+    color: white;
+    opacity: 60%;
+}
